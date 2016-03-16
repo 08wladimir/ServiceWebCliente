@@ -1,0 +1,160 @@
+
+nav ul li{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+    bottom: 200px;
+}
+.btn {
+    -moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+    box-shadow:inset 0px 0px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1f1c1f), color-stop(1, #666666) );
+    background:-moz-linear-gradient( center top, #1f1c1f 5%, #666666 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1f1c1f', endColorstr='#666666');
+    background-color:#1f1c1f;
+    -webkit-border-top-left-radius:22px;
+    -moz-border-radius-topleft:22px;
+    border-top-left-radius:22px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:22px;
+    -moz-border-radius-bottomright:22px;
+    border-bottom-right-radius:22px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    text-indent:0px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#d6c7d6;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:normal;
+    font-style:normal;
+    height:39px;
+    line-height:39px;
+    width:127px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+}
+
+.btn:hover{
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #666666), color-stop(1, #1f1c1f) );
+    background:-moz-linear-gradient( center top, #666666 5%, #1f1c1f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#1f1c1f');
+    background-color:#666666;
+}
+
+.btn:active{
+    position:relative;
+    top:1px;
+}
+
+.slider{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: cambio 10s infinite alternate;
+
+
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+@keyframes cambio{
+    0% { margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+
+}
+
+#cajas{
+
+    text-align: right;
+    left: -20px;
+    color: #ffffff;
+    position: relative;
+    top: -820px;
+    text-align: right;
+    padding: 30px;
+}
+
+#button{
+    position: absolute;
+    top: 105px;
+    left: 1060px;
+}
+
+#formulario{
+    position: relative;
+    top: -120px;
+    margin-left: 310px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.navi li a{
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    border-bottom-right-radius:22px;
+}
+
+.navi li a:hover{
+    background-color: #434343;
+}
+
+.navi > li{
+    float: left;
+
+}
+
+.navi li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.navi li:hover > ul{
+    display: block;
+}
+
+.margenIndex {
+  margin-top: -6em;
+}
+
+margen{
+    margin: -10em;
+}
+
+.margenLogin {
+  margin-top: -4em;
+}
